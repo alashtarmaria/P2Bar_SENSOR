@@ -1,11 +1,3 @@
-// Sensor Transfer Function (from MCP9701A Datasheet):
-// VOUT = TC × TA + V0C
-// => TA = (VOUT - V0C) / TC
-// where:
-// VOUT = Sensor Output Voltage (Volts)
-// TC = Temperature Coefficient (19.5 mV/°C)
-// V0C = Output Voltage at 0°C (400 mV)
-// TA = Ambient Temperature (°C)
 
 void UART3_Init_Config(unsigned long baudrate)
 {
